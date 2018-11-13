@@ -1,0 +1,8 @@
+footer{
+  background-color: #343a40;
+}
+.breadcrumb a{
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
