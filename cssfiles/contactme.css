@@ -1,8 +1,8 @@
 main{
-  height: 100%;
+  height: 900px;
 }
 /* Sections and Div box styling for the contact details */
-#main{
+#contact_main{
   height: 704px;
   margin-top: 0px;
   margin-left: 400px;
@@ -51,6 +51,156 @@ h4{
   float: left;
   height: 710px;
 }
-.logos{
+.logo{
   color: black;
+}
+
+/* Responsive Styling */
+
+/* For Desktops */
+@media only screen and (min-width:1601px) and (max-width:1919px) {
+  main{
+    height: 900px;
+  }
+/* Sections and Div box responsive styling for the contact details */
+#contact_main{
+  height: 704px;
+  margin-top: 0px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.contacts{
+  width:50%;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.contact_box{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.pic{
+  width: 40%;
+  height: 710px;
+}
+}
+
+/* For Laptops */
+@media only screen and (min-width:1201px) and (max-width:1600px) {
+  main{
+    height: 900px;
+  }
+/* Sections and Div box responsive styling for the contact details */
+#contact_main{
+  height: 704px;
+  margin-top: 0px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.contacts{
+  width:50%;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.contact_box{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.pic{
+  width: 40%;
+  height: 710px;
+}
+}
+
+/* For laptops and tablets */
+@media only screen and (min-width:801px) and (max-width:1200px) {
+  main{
+    height: 1000px;
+  }
+  /* Sections and Div box responsive styling for the contact details */
+  #contact_main{
+    height: 704px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .contacts{
+    width:50%;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .contact_box{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .pic{
+    width: 40%;
+    height: 710px;
+  }
+}
+
+/* For tablets */
+@media only screen and (min-width:501px) and (max-width:800px) {
+  main{
+    height:1700px;
+  }
+  /* Sections and Div box responsive styling for the contact details */
+  #contact_main{
+    height: 704px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .contacts{
+    width:100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .contact_box{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .pic{
+    width: 100%;
+    height: 710px;
+  }
+}
+
+/* For phones */
+@media only screen and (max-width:500px) {
+  main{
+    height: 1700px;
+  }
+  /* Sections and Div box responsive styling for the contact details */
+  #contact_main{
+    height: 1350px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .contacts{
+    width:100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* .contact_box{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  } */
+  .pic{
+    width: 100%;
+    height: auto;
+  }
 }
