@@ -24,7 +24,7 @@
   padding-top: 10px;
 }
 .picbox2{
-  width: 515px;
+  max-width: 515px;
   height: 200px;
   background-color: black;
   margin-left: 10px;
@@ -63,4 +63,110 @@ p{
 }
 .picture{
   height: 400px;
+}
+
+/* Responsive Styling */
+
+/* For laptops */
+ @media only screen and (min-width:1201px) and (max-width: 1600px) {
+/* Section and Div Box responsive styling including the styling of the bootstarp Jumbotron */
+  #home_main{
+    padding-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .jumbotron{
+    max-width: 100%;
+  }
+  .picbox1{
+    padding-top: 10px;
+  }
+  .picbox2{
+    max-width: 515px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+}
+
+/* For Laptops and tablets */
+@media only screen and (min-width:801px) and (max-width: 1200px) {
+  /* Section and Div Box responsive styling including the styling of the bootstarp Jumbotron */
+  #home_main{
+    padding-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .jumbotron{
+    max-width: 100%;
+  }
+  .picbox1{
+    padding-top: 10px;
+  }
+  .picbox2{
+    min-width: 350px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+/* For tablets */
+@media only screen and (min-width:501px) and (max-width:800px) {
+  /* Section and Div Box responsive styling including the styling of the bootstarp Jumbotron */
+  #home_main{
+    padding-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .jumbotron{
+    max-width:100%;
+  }
+  .picbox1{
+    padding-top: 10px;
+  }
+  .picbox2{
+    max-width: 353px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+/* For phones */
+@media only screen and (max-width: 500px) {
+/* Section and Div Box responsive styling including the styling of the bootstarp Jumbotron */
+#home_main{
+  padding-top: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.jumbotron{
+  max-width:100%;
+}
+.picbox1{
+  padding-top: 10px;
+}
+.picbox2{
+  max-width: 381px;
+  height: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-left: 75px;
+  padding-right: 100px;
+}
 }
