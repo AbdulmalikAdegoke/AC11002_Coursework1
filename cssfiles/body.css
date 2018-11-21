@@ -20,7 +20,7 @@ main{
   margin: 20px 20px 20px 20px;
   color: white;
 }
-/* Div Box Styling for a line underneath the headings of CV page and ContactMe page  */
+/* Div Box Styling for a line underneath the headings of ContactMe page  */
 .underline_box{
   border-bottom-color: grey;
   border-bottom-style: solid;

@@ -2,6 +2,9 @@ footer{
   background-color: #343a40;
   height: 70px;
 }
+.breadcrumb{
+  margin-bottom: 0px;
+}
 .breadcrumb a{
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
