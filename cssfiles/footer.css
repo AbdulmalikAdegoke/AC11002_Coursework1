@@ -1,8 +1,13 @@
 footer{
   background-color: #343a40;
+  height: 70px;
 }
 .breadcrumb a{
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
+  padding-bottom: 0;
+}
+.breadcrumb a:hover{
+  color:#C9C9C9;
 }

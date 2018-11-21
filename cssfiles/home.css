@@ -1,0 +1,66 @@
+/* Section and Div Box styling including the styling of the bootstarp Jumbotron */
+#home_main{
+  padding-top: 100px;
+  margin-left: 400px;
+  margin-right: 400px;
+  border-width: thin;
+  border-color: black;
+}
+.jumbotron{
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.8);
+}
+.card:hover{
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.8);
+}
+.card-title a{
+  color: black;
+}
+.card-title a:hover{
+  color: black;
+  font-weight: bold;
+}
+.picbox1{
+  background-color: #e9ecef;
+  padding-top: 10px;
+}
+.picbox2{
+  width: 515px;
+  height: 200px;
+  background-color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/* Text Styling */
+    /* Headings */
+.jumbotron h1{
+  font-family: 'Montserrat', sans-serif;
+}
+.card-title{
+  font-family: 'Montserrat', sans-serif;
+}
+    /* Body Text */
+#button{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+}
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  color: black;
+}
+.card-text{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  color: black;
+}
+/* Picture Styling */
+.projectimage{
+  color: white;
+}
+.picture{
+  height: 400px;
+}
