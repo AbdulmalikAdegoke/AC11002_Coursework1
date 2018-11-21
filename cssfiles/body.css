@@ -1,0 +1,30 @@
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+main{
+  background-color: #C9C9C9;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+/* Bootstap Card styling */
+.card{
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+  margin-top: 0px;
+}
+/* Picture(Logos) */
+.logos{
+  margin: 20px 20px 20px 20px;
+  color: white;
+}
+/* Div Box Styling for a line underneath the headings of CV page and ContactMe page  */
+.underline_box{
+  border-bottom-color: grey;
+  border-bottom-style: solid;
+  border-width: thin;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
