@@ -1,0 +1,136 @@
+/* Section and Div Box styling */
+#cv_main{
+  background-color: #e9ecef;
+  height: 1290px;
+  padding-top: 20px;
+  padding bottom: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.8);
+}
+.cv_box{
+  padding: 10px 10px 10px 5px;
+}
+.cv_container{
+  width: 30%;
+  float: left;
+}
+.cv_container1{
+  width: 70%;
+  float:right;
+  padding-left: 10px;
+  border-left-color: #C9C9C9;
+  border-left-style: solid;
+  border-left-width: thick;
+}
+.container{
+  margin-left: 5px;
+  padding-left: 10px;
+}
+.passport{
+  padding-bottom: 10px;
+}
+.name_heading{
+  border-bottom-color: #C9C9C9;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  margin-bottom: 5px;
+}
+.heading{
+  border-bottom-color: #C9C9C9;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+}
+.heading1{
+  border-bottom-color: #C9C9C9;
+  border-bottom-style: solid;
+  border-bottom-width: medium;
+}
+.content{
+  margin-top: 5px;
+}
+.content_box1{
+  width: 50%;
+  float: left;
+}
+.content_box2{
+  width: 50%;
+  float: right;
+}
+.content_box3{
+  width: 50%;
+  float: left;
+  height: 250px;
+}
+.content_box4{
+  width: 50%;
+  float: right;
+  height: 250px;
+}
+.content_box5{
+  width: 50%;
+  float: left;
+  height: 490px;
+}
+.content_box6{
+  width: 50%;
+  float: right;
+  height: 490px;
+  padding-left: 5px;
+  border-left-color: #C9C9C9;
+  border-left-style: solid;
+  border-left-width: medium;
+}
+/* Picture Styling */
+.logos{
+  color: black;
+}
+/* Text Styling */
+    /* Headings */
+.name_heading h1{
+  font-family: 'Montserrat', sans-serif;
+}
+.heading h2{
+  font-family: 'Montserrat', sans-serif;
+}
+.heading h3{
+  font-family: 'Montserrat', sans-serif;
+}
+.heading2{
+  font-family: 'Oxygen', sans-serif;
+}
+.heading2 h4{
+  font-family: 'Oxygen', sans-serif;
+}
+.content_box3 h5{
+  font-family: 'Oxygen', sans-serif;
+}
+    /* Body Text */
+.socials_id h5{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  color: black;
+}
+.content p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  color: black;
+}
+.content_box1 li{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  color: black;
+}
+.content_box2 li{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  color: black;
+}
+.content_box3 li{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  color: black;
+}
