@@ -179,7 +179,7 @@ h4{
 /* For phones */
 @media only screen and (max-width:500px) {
   main{
-    height: 1700px;
+    height: 1800px;
   }
   /* Sections and Div box responsive styling for the contact details */
   #contact_main{
